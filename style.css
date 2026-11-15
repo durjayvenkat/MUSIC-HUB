@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 5px;
+    background-color: hsl(0, 3%, 39%);
+}
+.edit{
+    background-color:hsla(180, 5%, 4%, 0.71);
+    border: 3px solid hsl(0, 33%, 8%);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    
+    width: 300px;
+    
+}
+img{
+    width: 300px;
+    border: 3px solid hsl(0, 0%, 2%);
+    border-radius: 25%;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+    height: 100px;
+}
+.navbar{
+    width:100vw;
+    height: 100px;
+    border-radius: 20px;
+    background-color:hsl(0, 19%, 13%);
+    display: flex;
+    color: white;
+    
+}
+.a{
+    color: WHITE;
+    text-decoration: none;
+}
+.a:hover{
+    color: hsl(0, 2%, 71%);
+}
+.a:active{
+    color: blue;
+}
+.main{
+    color: lightcyan
+}
+.search-container{
+    width: 500px;
+    border-radius: 20px;
+    background-color:hsl(312, 50%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 6px;
+    
+}
+.search-input{
+    border: none;
+    outline: none; 
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: white;
+}
+.search-input::placeholder{
+    color: hsl(0, 31%, 73%);
+}
+
+.search-btn{
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 13px;
+    background-color: rgb(118, 185, 243);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+
+}
+.about{
+    font-family: sans-serif, arial;
+    color:lightcyan;
+    margin: 6px;
+
+}
+.p{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.contact{
+    color: lightcyan;
+    font-family: sans-serif, arial;
+    font-weight: bold;
+    margin-bottom: 6px; 
+}
+.query-input{
+    border: 2px solid hsl(0, 25%, 13%);
+    outline: none;
+    background: rgb(216, 216, 224);
+    border-radius: 5px;
+}
+.query-input::placeholder{
+    color: rgb(101, 68, 68);
+}
+.submit-btn{
+    background-color: rgb(149, 239, 255);
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    transform: translateY(-6px) translateX(-6px);
+    box-shadow: 0 1rem 2rem hsl(0, 7%, 78%);
+    background-color: red;
+}
+.submit-btn:active{
+    background-color: blue;
+}
+.footer{
+    background: black;
+    height: 100px;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

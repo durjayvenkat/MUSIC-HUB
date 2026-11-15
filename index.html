@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- this is a navigation bar -->
+    <div class="navbar">
+        <h1>WELCOME :</h1>
+        <nav>
+            <ul>
+                <li><a href="#HOME" class="a">HOME</a></li>
+                <li><a href="#ABOUT" class="a">ABOUT</a></li>
+                <li><a href="#MUSIC" class="a">MUSIC</a></li>
+                <li><a href="#CONTACT US" class="a">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    
+
+    <!-- this is a search bar -->
+
+    <div class="search-container">
+
+        <input
+            type="text"
+            placeholder="Search songs, artists..."
+            class="search-input"
+        >
+
+        <button class="search-btn">
+            Search
+        </button>
+
+    </div>
+    <hr>
+
+    <!-- this is about -->
+     <div id="ABOUT" class="about">
+        <h1>ABOUT</h1>
+
+        <p class="p">WELCOME to MUSIC-HUB. This is a place where you can listen free music and download them.<br>
+            Basically this is a project website it is still in development.<br>
+            Thanks for using this.
+        </p>
+     </div>
+     <hr>
+<!-- this is a music file -->
+    <div  id="MUSIC" class="main">
+        <h1>MUSIC</h1>
+        <div class="edit">
+            <h1>WARRIYO</h1>
+            <img src="image_albums/mortals.jpg"
+                alt="this is a song">
+                <br>
+            <audio controls loop >
+                <source src="audio/Warriyo_-_Mortals__ft._Laura_Brehm_(256k).mp3"
+                type="audio/mpeg">
+            </audio>
+            <p class=""><strong>Warriyo</strong><br><small>mortals</small></p>
+        </div>
+
+        <div class="edit">
+            <h1>WHOOPTY</h1>
+            <img src="image_albums/whoopty.jpg"
+                alt="this is a song">
+                <br>
+            <audio controls loop >
+                <source src="audio/Whoopty(PagalNew.Com.Se).mp3"
+                type="audio/mpeg">
+            </audio>
+            <p class=""><strong>WHOOPTY</strong><br><small>CJ</small></p>
+        </div>
+
+        <div class="edit">
+            <h1>WARRIYO</h1>
+            <img src="image_albums/Matushka_(song).png"
+                alt="this is a song">
+                <br>
+            <audio controls loop >
+                <source src="audio/Татьяна_Куртукова_-_Матушка(128k).mp3"
+                type="audio/mpeg">
+            </audio>
+            <p class=""><strong>matushka</strong><br><small>...</small></p>
+        </div>
+
+        <div class="edit">
+            <h1>RMYONDU</h1>
+            <img src="image_albums/ryamandu.jpg"
+                alt="this is a song">
+                <br>
+            <audio controls loop >
+                <source src="audio/ჩუბინა(256k).mp3"
+                type="audio/mpeg">
+            </audio>
+            <p class=""><strong>RMYONDU</strong><br><small>...</small></p>
+        </div>
+    </div>
+    <hr>
+
+    <!-- this is contact us -->
+     <div id="CONTACT US" class="contact">
+        <h1>CONTACT US</h1>
+        <p class="p"><strong>please email us if you have any kind of problems with this site.</strong></p>
+        
+        <form action="mailto:random@gmail.com" method="POST" enctype="text/plain">
+            <label for="query">Your Query:</label>
+            <input class="query-input" type="text" id="query" name="Query" placeholder="Type your question here..." required>
+            
+            <button type="submit" class="submit-btn">Send to Developer</button>
+        </form>
+     </div>
+     <hr>
+     <div class="footer">
+        <footer>
+            <div>
+                <p>2026-NOVEMBER POSA DURJAY VENKAT</p>
+                <p>@copyrights reserved</p>
+            </div>  
+        </footer>
+     </div>
+</body>
+</html>
